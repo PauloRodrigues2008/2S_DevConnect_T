@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+:root{
+ --cor-preto: #000000;
+ --cor-branca: #ffffff;
+ --cor-verde-escuro:#383F03;
+ --cor-verde-medio: #366006 ;
+ --cor-verde-claro: #B0CA87;
+ --cor-cinza-claro: #949494;
+
+ --borda: 1px solid var(--cor-verde-claro);
+ --borda-arredondada:2px;
+
+ --tamanho-fonte-lg: 20px;
+ --tamanho-fonte-md: 16px;
+ --tamanho-fonte-sm: 14px;
+}
+
+
+/* SELETOR GLOBAL */
+*{
+    font-family: "Inria Sans",sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box; /*o valor total do tamanho do elemento conta tanto com espaços internos/externo e as bordas*/  
+}
+
+body{
+    background-color: var(--cor-cinza-claro); 
+}
+h1{
+    position: absolute; /*altera a posição do elemento*/
+    z-index:  -1; /**/
+    opacity: 0;
+}
+
+/* formulario */
+input{
+    width: 100%;
+    height: 35px;
+    border: var(--borda);
+    background-color: var(--cor-branca);
+}
