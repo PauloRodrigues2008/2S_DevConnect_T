@@ -26,7 +26,7 @@
 }
 
 body{
-    background-color: var(--cor-cinza-claro); 
+    background-color: var(--cor-branca); 
 }
 h1{
     position: absolute; /*altera a posição do elemento*/
@@ -40,4 +40,18 @@ input{
     height: 35px;
     border: var(--borda);
     background-color: var(--cor-branca);
+
+}
+
+
+.formulario-botao-verde{
+    background-color: var(--cor-verde-claro);
+    border-radius: var(--borda-arredondada); /*Arredonda os cantos dos elementos*/
+    border: none; /* removendo a borda*/
+    height: 35px;
+
+    
+    color: var(--cor-branca);
+    font-size: var(--tamanho-fonte-sm);
+    font-weight: 600;
 }

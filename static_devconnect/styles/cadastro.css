@@ -60,6 +60,7 @@ main > div {
 }
 
 .formulario-botao-verde{
+    margin-top: 13px;
 width: 100%;
 }
 #formulario >p{
@@ -74,25 +75,19 @@ width: 100%;
 
 }
 
-#secao-cadastro > p{
-    font-size: var(--tamanho-fonte-md);
-}
-
-.informacao-aplicativo{
+.file-upload {
   
-    font-size:var(--tamanho-fonte-sm) ;
-    color: var(--cor--preto);
-    font-weight: 400;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    padding: 6px 12px;   /* deixei menor */
+    background-color: var(--cor-verde-claro); /* cinza do botão */
+    cursor: pointer;
+    border-radius: 5px;
+    font-family: sans-serif;
+    font-size: 14px;
 }
 
-#secao-instalacao{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 10px; /* espaços em linhas e colunas */
-}
-
-#secao-instalacao img{
- width: 133px;
- height: 39px;
+.texto-centralizado{
+    text-align: center;
 }
