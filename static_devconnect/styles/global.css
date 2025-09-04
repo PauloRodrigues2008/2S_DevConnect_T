@@ -22,7 +22,8 @@
     font-family: "Inria Sans",sans-serif;
     padding: 0;
     margin: 0;
-    box-sizing: border-box; /*o valor total do tamanho do elemento conta tanto com espaços internos/externo e as bordas*/  
+    box-sizing: border-box; /*o valor total do tamanho do elemento conta tanto com espaços internos/externo e as bordas*/ 
+    outline-color: var(--cor-verde-medio); 
 }
 
 body{
@@ -52,12 +53,10 @@ input{
 }
 
 .formulario-botao-verde{
-    background-color: var(--cor-verde-claro);
+  /*  background-color: var(--cor-verde-claro);*/
     border-radius: var(--borda-arredondada); /*Arredonda os cantos dos elementos*/
     border: none; /* removendo a borda*/
     height: 35px;
-
-    
     color: var(--cor-branca);
     font-size: var(--tamanho-fonte-sm);
     font-weight: 600;
@@ -67,13 +66,15 @@ input{
   
     display: inline-block;
     width: 100%;
-    text-align: center;
-    padding: 6px 12px;   /* deixei menor */
+    max-width: 300px;
+    min-height: 35px;
+    padding: 5px;
     background-color: var(--cor-verde-claro); /* cinza do botão */
-    cursor: pointer;
+    color: var(--cor-preto);
     border-radius: 5px;
-    font-family: sans-serif;
-    font-size: 14px;
+    font-weight: 600;
+    
+    
 }
 
 /* cabeçalho*/
@@ -113,14 +114,20 @@ input{
 }
 
 
-#foto-perfil{
-    width: 23px;
-    height: 23px;
+.foto-perfil{
+    width: 25px;
+    height: 25px;
     object-fit: cover; /*redimensiona a foto*/
     object-position: center;
     border-radius: 50%;
+    
 
 }
+.verificado{
+    width: 38px;
+}
+
+
 
 
 
